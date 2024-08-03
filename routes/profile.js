@@ -1,7 +1,4 @@
-// const express = require("express");
-// const router = express.Router();
-// const { protect } = require("../middleware/authMiddleware");
-// const User = require("../models/User");
+
 import express from "express";
 import { protect } from "../middlewares/authMiddleware.js";
 import { User } from "../models/user.js";
